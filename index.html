@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github User Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app">
+        <!--Header-->
+        <header class="header">
+           <h1>Github User Finder</h1>
+        </header>
+
+<!--Main Content-->
+<main class="main">
+    <!--Search bar code-->
+     <div class="search-container">
+        <div class="search-box">
+           <img src="image.png">
+          <input  type="text" id="searchInput"  placeholder="Search Github username..."/>
+          <button id="searchBtn"> Search</button>
+       </div>
+       </div>
+    <!--Search bar code-->
+
+
+    <!--Profile-Card-->
+    <div class="profile-card">
+    <img id="avatar" src="https://via.placeholder.com/100"/>
+    <div class="profile-info">
+        <h2 id="username"></h2>
+        <p id="bio"></p>
+
+        <div class="stats">
+            <div>
+                <span>Repos</span>
+                <h3 id="repos"></h3>
+            </div>
+            <div>
+                <span>Followers</span>
+                <h3 id="followers"></h3>
+            </div>
+            <div>
+                <span>Following</span>
+                <h3 id="following"></h3>
+            </div>
+        </div>
+        <a id="profileLink"  href="#" target="_blank" class="btn">View Profile</a>
+         
+    </div>
+</div>
+    
+</main> 
+ </div>
+    <script src="script.js"></script>
+</body>
+</html>
